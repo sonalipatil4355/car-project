@@ -1,0 +1,30 @@
+{% include 'C:\Users\sonal\Desktop\Django\car project\templates\partials\header.html' %}
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Rental Website</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color:black
+      ;
+    }
+</style>
+</head>
+<body>
+    {% block content %}
+
+  {% endblock %}
+</body>
+{% include 'C:\Users\sonal\Desktop\Django\car project\templates\partials\footer.html' %}
+</html>
